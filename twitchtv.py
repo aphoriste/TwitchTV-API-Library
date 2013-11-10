@@ -163,7 +163,7 @@ class api:
 
 		return requests.get('https://api.twitch.tv/kraken/channels/%s/follows' % user, params=payload)
 
-	def channels_channel_streamkey(self. user):
+	def channels_channel_streamkey(self, user):
 		"""
 		DELETE Request
 		"""
